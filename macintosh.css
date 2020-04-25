@@ -168,5 +168,17 @@ body {
     top: 5px;
     right: 7px;
     border-radius: 3px;
+    box-shadow: 0 -4px 0.5px -0.5px rgba(25, 25, 25, 0.2) inset,
+    -2px 0 0.5px -0.5px rgba(25, 25, 25, 0.2) inset,
+    2px 0 0.5px -0.5px rgba(25, 25, 25, 0.2) inset;
+    background-image: linear-gradient(
+        #848580 20%,
+        transparent 20% 80%
+        ), linear-gadient (
+            90deg,
+            transparent 30%,
+            #181914 30% 70%,
+            transparent 70%
+        );
 }
 
